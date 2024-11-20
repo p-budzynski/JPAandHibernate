@@ -1,0 +1,6 @@
+Praca domowa:
+1.	Utworzyc nowego użytkownika z nowym loginem i haslem w postgres
+2.	Utworzyc nowy persistence unit który będzie się laczyc za pomocą tych danych
+3.	Utworzyc encje Person, Shop, Dog, tabele powinny tworzyć się automatycznie, ale po ponowym uruchomieniu dane nie powinny być kasowane.
+4.	Stworzyc DAO do tych encji (sprytnie byłoby zrobić to generycznie)
+5.	Stworzyc osobne runnery w których przetestujesz polaczenie do bazy danych
