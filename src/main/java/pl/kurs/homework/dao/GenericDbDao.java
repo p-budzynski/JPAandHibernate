@@ -5,7 +5,7 @@ import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.EntityTransaction;
 import jakarta.persistence.Persistence;
 
-public class GenericDbDao<T, Long> {
+public abstract class GenericDbDao<T, Long> {
     private final EntityManagerFactory managerFactory;
     private final EntityManager entityManager;
     private final Class<T> entityType;
